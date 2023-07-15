@@ -1,0 +1,39 @@
+.navbar {
+    height: 80px;
+    background-color: #2eb161;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    align-items: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.navbar > h1 {
+    text-transform: uppercase;
+}
+.link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.link > a:-webkit-any-link {
+    text-decoration: none !important;
+}
+.navbar-element {
+    height: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: white;
+}
+.navbar-element:hover {
+    background-color: #53bd78;
+}
+.active {
+    background-color: #26a256;
+}

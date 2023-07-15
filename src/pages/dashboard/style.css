@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row h1 {
+    color: #2eb161;
+}
+.btn {
+    background-color: #2eb161;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        background-color: #258d4d;
+    }
+}
